@@ -31,23 +31,29 @@ img {
   }
   
  /* Navigation styling */
- .nav ul {
+ nav ul {
     padding: 0; 
     list-style-type: none; 
+  }
+  
+  .main-nav {
     display: flex; 
-    justify-content: space-between; 
+    justify-content: space-between;
   }
   
-  .nav.MainNavigation a {
-    color: lightgray; /* Set lightgray color for main navigation links */
-    text-decoration: none;
+  .main-nav a {
+    color: lightgray; 
   }
   
-  .nav.footerNavigation a {
-    color: tomato; /* Set tomato color for footer navigation links */
-    text-decoration: none;
+  .footer-nav {
+    display: flex; 
+    justify-content: space-between;
   }
-
+  
+  .footer-nav a {
+    color: tomato; 
+  }
+  
   article {
     margin-bottom: 4rem; /* Add 4rem margin at the bottom of each article */
     border-bottom: 1px solid lightgray; /* Light gray border at the bottom */
@@ -64,4 +70,6 @@ img {
     color: lightgray; 
   }
 
- 
+ footer.h2{
+    color:tomato 
+ }
